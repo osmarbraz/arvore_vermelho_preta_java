@@ -14,4 +14,24 @@
         <exec.mainClass>Principal</exec.mainClass>
     </properties>
     
+     <build>
+         <!-- Plugins do Maven --> 
+        <plugins>
+            <!-- Configuração do arquivo JAR -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.4.2</version>
+                <configuration>
+                    <archive>
+                        <!-- Especifica o arquivo principal do manifesto -->
+                        <manifest>
+                            <mainClass>Principal</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    
 </project>
