@@ -3,9 +3,9 @@
     
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.servico</groupId>
-    <artifactId>arvore_vermelho_preto_java</artifactId>
+    <artifactId>arvore_vermelho_preta_java</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>arvore_vermelho_preto_java</name>
+    <name>arvore_vermelho_preta_java</name>
     
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
